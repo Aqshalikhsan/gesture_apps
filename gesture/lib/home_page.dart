@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Gesture Lab")),
+      appBar: AppBar(title: Text("Puis Lab")),
       body: Padding(
         padding: EdgeInsets.all(16),
         child: GridView.builder(
@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
             crossAxisSpacing: 16,
-            mainAxisSpacing: 16,
+            mainAxisSpacing: 106,
           ),
           itemBuilder: (_, i) {
             return GestureDetector(

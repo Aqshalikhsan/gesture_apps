@@ -9,9 +9,9 @@ class GestureApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Gesture Lab',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.blue),
+      title: 'clture Lab',
+      debugShowCheckedModeBanner: true,
+      // theme: ThemeData(useMaterial3: true, colorSchemeSeed: const Color.fromARGB(255, 178, 44, 44)),
       home: HomePage(),
     );
   }
